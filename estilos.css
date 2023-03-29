@@ -1,0 +1,164 @@
+/*reboot*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    width: 118px;
+    height: 40px;
+    background-image: url('./img/logo.png');
+}
+
+.header .form {
+    display: flex;
+    width: 50%;
+}
+
+.header .input:focus {
+    outline: none;
+}
+
+.header .input {
+    border: 1px solid #aaa;
+    flex-grow: 1;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0 10px;
+
+}
+
+.header .btn:hover {
+    background-color: #ccc;
+}
+
+.header .btn {
+    border: 1px solid #AAA;
+    background-color: #F2F2F2;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0 5px;
+    cursor: pointer;
+    border-left: none;
+}
+
+.header .sign-in {
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.videos {
+    width: 34%;
+    padding-left: 10px;
+}
+
+.videos .video {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.videos .name {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.videos .canal,
+.videos .data {
+    display: block;
+    font-size: 14px;
+}
+
+.videos .canal {
+    margin-bottom: 5px;
+}
+
+.videos .der {
+    padding-left: 10px;
+}
+
+.videos .link {
+    text-decoration: none;
+    color: #444;
+
+}
+
+.main {
+    display: flex;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.seccion {
+    font-size: 14px;
+    width: 64%;
+    padding-right: 10px;
+}
+
+.seccion .reproductor {
+    width: 100%;
+    border: none;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.seccion .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.seccion .ctn-subscribers {
+    box-sizing: border-box;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.seccion .canal {
+    display: block;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+}
+
+.seccion .subscribers {
+    display: block;
+    color: #333;
+}
+
+.seccion .subscribe {
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
